@@ -1,0 +1,24 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.166.1/containers/cpp
+{
+    "name": "TemplateCppProject",
+    "image": "konplandocker.azurecr.io/mcubuilder-arm:1.0.0",
+    "runArgs": [
+        "--rm"
+    ],
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+        "ms-vscode.cpptools",
+        "marus25.cortex-debug",
+        "twxs.cmake",
+        "visualstudioexptteam.vscodeintellicode",
+        "cschlosser.doxdocgen",
+        "akiramiyakoda.cppincludeguard",
+        "mhutchie.git-graph",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
